@@ -1,4 +1,5 @@
 #!/bin/python
+# Note that apparantely range(x,y) generates the integral list [x, x+1, ..., y)
 for x in range(1,101):
 	if x % 15 == 0:
 		print "FizzBuzz"
